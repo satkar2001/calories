@@ -18,7 +18,7 @@ app.get('/random',(req,res)=>{
 
 })
 
-app.listen(8000,()=>{
+app.listen(5000,()=>{
     console.log('yayay');
 })
 
@@ -43,7 +43,7 @@ formdata.append('image',fs.createReadStream(pict));
 var requestOptions = {
  method: 'POST',
  headers: {
-      'Authorization': ' token_user  api_key'
+      'Authorization': ' apiuser token'
         } ,
  body: formdata,
  redirect: 'follow'
