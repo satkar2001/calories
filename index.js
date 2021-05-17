@@ -43,7 +43,7 @@ formdata.append('image',fs.createReadStream(pict));
 var requestOptions = {
  method: 'POST',
  headers: {
-      'Authorization': ' project cedc79d5ef94b7ecca34b6087f72c43ab697613f'
+      'Authorization': ' token_user  api_key'
         } ,
  body: formdata,
  redirect: 'follow'
